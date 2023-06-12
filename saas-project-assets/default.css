@@ -1,0 +1,76 @@
+:root{
+  --white: #fff;
+  --black: #000;
+  --font-color-different: #f2ebf9;
+  --font-color-base: #777;
+  --font-color-dark: #212529;
+  --font-color-light: #d1cfe0;
+  --font-color-link: #1980f6;
+  --font-color-sea: #0f7e97;
+  --footer:  #34314b;
+  --footer-base: #2e2b45;
+  --contrast: rgba(29, 136, 189, 0.8);
+  --success: #64ecf5;
+  --danger: #ff888d;
+  --grad-1: #a1ecff;
+  --grad-2: #7dbcff;
+  
+  --size-5:  0.313rem;
+  --size-10: 0.625rem;
+  --size-12: 0.750rem;
+  --size-14: 0.875rem;
+  --size-16: 1.000rem;
+  --size-18: 1.125rem;
+  --size-20: 1.250rem;
+  --size-25: 1.563rem;
+  --size-30: 1.875rem;
+  --size-35: 2.188rem;
+  --size-40: 2.500rem;
+  --size-50: 3.125rem;
+  --size-60: 3.750rem;
+  --size-70: 4.375rem;
+  --size-75: 4.688rem;
+  --size-80: 5.000rem;
+  --size-90: 5.625rem;
+  --size-100: 6.250rem;
+  --size-120: 7.500rem;
+  --size-140: 8.750rem;
+  --size-150: 9.375rem;
+  --size-180: 11.250rem;
+  --size-200: 12.500rem;
+  --size-250: 15.625rem;
+  --size-287: 17.938rem;
+  --size-300: 18.750rem;
+  --size-350: 21.875rem;
+  --size-450: 28.125rem;
+  --size-500: 31.250rem;
+  --size-600: 37.500rem;
+  --size-974: 60.875rem;
+}
+html{
+  max-width:1024px;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+}
+a{
+  text-decoration:0;
+  color: var(--font-color-link);
+  font-weight: 590;
+  font-size: var(--size-12);
+}
+hr { 
+  width:100%;
+  border-top: 1px solid lightgrey;
+  color:black;
+  margin: 30px 0px;
+}
+i{
+  font-style:normal;
+}
+p{
+  font-size:var(--size-12);
+}
+.companies{
+  margin-top: var(--size-40);
+}
